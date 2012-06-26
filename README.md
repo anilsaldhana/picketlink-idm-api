@@ -12,7 +12,7 @@ Some of the requirements that have been provided by potential consumers of this 
 
 3) Identity configuration via annotations that can be injected into the API.
 
-4) The Identity Store API can use an LDAP and/or DB. 
+4) The Identity Store API can use an LDAP and/or DB as implementation details. 
   - Data can be loaded into an LDAP using LDIF conforming standard LDAP schema.
   - Data in DB need to be configured in the Identity Configuration (annotations)
   - DB configuration will go into persistence.xml as per JPA spec. 
